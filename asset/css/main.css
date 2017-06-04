@@ -10,7 +10,6 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
 }
 h2{
 	color: #fff;
@@ -36,12 +35,19 @@ a{
 	left: 0;
 	width: 100%;
 }
-.videos.video1{
-	justify-content: flex-start;
+.menu-container{
+	justify-content: flex-end;
 }
-
 .conte{
 	justify-content: flex-end;
+}
+/*info*/
+#info{
+	width: 100%;
+	background-color: linear-gradient(#76278f, #2b1e66);
+}
+#info .tres img{
+	width: 500px;
 }
 /*video
 
@@ -52,6 +58,9 @@ a{
 .videos{
 	width: 100%;
 
+}
+.videos.video1{
+	justify-content: flex-start;
 }
 .lado-derecho{
 	width: 300px;
