@@ -1,0 +1,76 @@
+/*colores:
+	botones / hover _ #ff00bf;
+	nav: #fff;
+	azul oscuro / letra / footer : #333447;
+	titulos Form: #352384;
+	texto form: #729099;
+	gradiente morado: linear-gradient(#76278f, #2b1e66);
+*/
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.flex-container{
+	display: flex;
+}
+a{
+	justify-content: flex-end;
+	text-decoration: none;
+	font-weight: 300;
+	color: white;
+}
+.logo-container{
+	justify-content: flex-start;
+	order: -1;
+}
+.menu{
+	padding: 20px;
+	background-color: black;
+	position: fixed;	
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.flex-container{
+	justify-content: space-between;
+}
+.info.video1{
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.info.video2{
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.info.video3{
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.contenedor{
+	flex-direction: row;
+	width: 100%;
+	background-color: #333447;
+	display: flex;
+	justify-content: space-around;
+}
+.elemento{
+	width: 150px;
+}
+.elemento4 img{
+
+	width: 150px;
+}
+.contenedor:hover{
+	color: #ff00bf;
+}
+.turn{
+	justify-content: flex-end;
+    background-color: #ede9e2;
+    width: 500px;
+    height: 400px;
+}
+.uno{
+    color: #00B2A9;
+    font-size: 24px;
+}
